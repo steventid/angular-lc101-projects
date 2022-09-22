@@ -9,4 +9,6 @@ img {
 
 .photos {
    text-align: center;
+   border-style: double;
+   border-radius: 10px;
 }

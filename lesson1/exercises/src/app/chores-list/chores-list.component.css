@@ -1,6 +1,8 @@
 .chores {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.3vw;
+    border-style: dashed;
+    border-radius: 10px;
 }
 
 h3 {
