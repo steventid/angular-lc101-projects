@@ -1,6 +1,10 @@
 .movies {
     color: purple;
  }
+
+ .error {
+   color: rgb(243, 75, 75);
+ }
  
  h3 {
     text-align: center;
