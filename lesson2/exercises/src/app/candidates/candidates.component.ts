@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { createDeflateRaw } from 'zlib';
 
 @Component({
   selector: 'candidates',
@@ -24,9 +25,17 @@ export class CandidatesComponent implements OnInit {
   }
 
   // Code the addToCrew function here:
+  addToCrew(crewMate: Object) {
+    if(!this.crew.includes(crewMate)) {
+      this.crew.push(crewMate);
+    }
+  }
 
 
   // BONUS: Code the changeMissionName function here:
+  changeMissionName(newName: string) {
+    this.missionName = newName;
+  }
 
 
 }
